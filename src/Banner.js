@@ -19,7 +19,7 @@ function Banner() {
 	return (
 		<div className='banner'>
 			<div className='banner__search'>
-				{/*  {showSearch && <Search />} */}
+				{showSearch && <Search />}
 				<Button
 					onClick={searchHandler}
 					className='banner__searchButton'

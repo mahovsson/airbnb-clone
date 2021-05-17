@@ -5,6 +5,7 @@ import { DateRangePicker } from 'react-date-range';
 import { Button } from '@material-ui/core';
 import PeopleIcon from '@material-ui/icons/People';
 import { useHistory } from 'react-router-dom';
+import './Search.css';
 
 function Search() {
 	const history = useHistory();
@@ -15,6 +16,7 @@ function Search() {
 		startDate: startDate,
 		endDate: endDate,
 		key: 'selection',
+		color: '#ff7779',
 	};
 
 	const handleSelection = (ranges) => {
