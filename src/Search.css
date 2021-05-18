@@ -45,3 +45,7 @@
 	background-color: white;
 	color: #ff7779;
 }
+
+.rdrDayToday .rdrDayNumber span:after {
+	background: #ff7779;
+}
